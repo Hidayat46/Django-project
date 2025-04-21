@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Django Project</title>
-</head>
-<body>
+{% extends 'layout.html' %}
+{% block title %}
+Django Project 
+{% endblock %}
 
-<h1>Hidayat masood </h1>
-<p>inshallah i will do it maybe today maybe tonwrow or maybe be next month i will do it inshallah.</p>
-
-</body>
-</html>
+{% block content %}
+<h1 class="text-center text-white mt-4">
+    Welcome to Django Project
+</h1>
+{% endblock %}
